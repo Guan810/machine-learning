@@ -3,4 +3,6 @@
 - linearReg.py
 
 线性回归的最简单应用
+
+
 ![结果](/pic/linearReg.png)
