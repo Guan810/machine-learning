@@ -52,10 +52,21 @@ class linearClarfy:
                 count+=1
         return count/len(ytest)
 
-
 #导入数据
-a=linearClarfy()
+data=np.loadtxt("data/employee/HR_comma_seq.csv",delimiter=",")
+#数据预处理
+# 分以下几步：
+# 1. 替换字符型数据，因为类别较少，可以直接用整数替换
+# 2. 观察数据，可能要剔除几列，如work_accident
+# 3. 数据正态化，或是修改到其他分布
+
+
+# 数据划分
 
 
 
+# 训练模型
 
+
+
+# 评估并输出结果
