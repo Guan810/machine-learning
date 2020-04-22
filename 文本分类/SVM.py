@@ -23,3 +23,6 @@ with open("result/"+index+"/result.txt","w") as file:
     y_pred=clf.predict(test_X)
     file.write(classification_report(y_true=test_y,y_pred=y_pred))
 
+# 为了找出最优的参数C和gamma，可以使用sklearn工具包中的GridSearch工具。
+# Grid Search是一种调优方法，通过在参数列表中进行穷举搜索，对每种情况进行训练、找到最优的参数。
+# Grid Search方法的主要缺点是比较耗时。
